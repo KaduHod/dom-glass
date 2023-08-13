@@ -1,5 +1,5 @@
 import express from "express";
-import { create, engine } from "express-handlebars";
+import { engine } from "express-handlebars";
 
 const app = express();
 
@@ -8,7 +8,7 @@ app
 .set('view engine', ".hbs")
 .set('views', './public/views')
 .use(
-    express.static('./public')
+    express.static('public')
 )
 
 app.get('/', (req, res) => {
