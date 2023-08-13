@@ -1,0 +1,30 @@
+{
+  "name": "dom-glass",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KaduHod/dom-glass.git"
+  },
+  "author": "KaduHod",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KaduHod/dom-glass/issues"
+  },
+  "homepage": "https://github.com/KaduHod/dom-glass#readme",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-handlebars": "^7.1.2",
+    "tailwindcss": "^3.3.3"
+  }
+}
