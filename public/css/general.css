@@ -1,0 +1,14 @@
+@font-face {
+    font-family: "lucida regular";
+    src: url("fonts/lucida-fax-regular.ttf") format("ttf");
+}
+
+@font-face {
+    font-family: "lucida demibold";
+    src: url("fonts/lucida-fax-demibold.ttf") format("ttf");
+}
+
+@font-face {
+    font-family: "bahnschrift";
+    src: url("fonts/bahnschrift.ttf") format("ttf");
+}

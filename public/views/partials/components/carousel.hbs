@@ -1,0 +1,59 @@
+<div class="slider-container">
+    <button class="arrow-left control" aria-label="previous-image"><</button>
+    <button class="arrow-right control" aria-label="next-image">></button>
+    <div class="gallery-wrapper">
+        <div class="gallery">
+            <img class="gallery-item gallery-current" src="/images/sobrado-1.jpg" alt="">
+            <img class="gallery-item " src="/images/sobrado-2.jpg" alt="">
+            <img class="gallery-item " src="/images/sala-1.jpg" alt="">
+            <img class="gallery-item " src="/images/sala-2.jpg" alt="">
+            <img class="gallery-item " src="/images/sala-3.jpg" alt="">
+            <img class="gallery-item " src="/images/sala-4.jpg" alt="">
+            <img class="gallery-item " src="/images/area-1.jpg" alt="">
+            <img class="gallery-item " src="/images/telhado-1.jpg" alt="">
+            <img class="gallery-item " src="/images/telhado-2.jpg" alt="">
+            <img class="gallery-item " src="/images/varanda-1.jpg" alt="">
+            <img class="gallery-item " src="/images/varanda-2.jpg" alt="">
+            <img class="gallery-item " src="/images/varanda-3.jpg" alt="">
+        </div>
+    </div>
+</div>
+
+<script>
+    const controls = [...document.getElementsByClassName('control')];
+    let currentItem = 0;
+    const items = [...document.querySelectorAll('.gallery-item')]
+    const maxItems = items.length -1;
+    controls.forEach(control => {
+        control.addEventListener('click', ({target}) => {
+            const isLeft = control.classList.contains('arrow-left');
+            currentItem = isLeft 
+                ? currentItem - 1
+                : currentItem + 1
+            
+            if(currentItem > maxItems){
+                currentItem = 0
+            } 
+
+            if(currentItem < 0) {
+                currentItem = maxItems
+            }
+
+            document
+                .querySelector('.gallery-current')
+                .classList.remove('gallery-current');
+
+            const current = items[currentItem]
+
+            current.scrollIntoView({
+                inline: "center",
+                behavior: "smooth"
+            })
+
+            items[currentItem]
+                .classList.add('gallery-current');
+
+            console.log({currentItem})
+        })
+    })
+</script>
