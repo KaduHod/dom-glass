@@ -1,6 +1,8 @@
 import express from "express";
 import { engine } from "express-handlebars";
 
+const porta = 3333;
+
 const app = express();
 
 app
@@ -15,4 +17,4 @@ app.get('/', (req, res) => {
     res.render('home')
 })
 
-app.listen(3333, () => console.log('rodando'))
+app.listen(porta, () => console.log(`Rodando em http://localhost:${porta}`)) 
