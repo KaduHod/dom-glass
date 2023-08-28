@@ -1,18 +1,17 @@
 <div class="slider-container">
-    <button class="arrow-left control" aria-label="previous-image"><</button>
-    <button class="arrow-right control" aria-label="next-image">></button>
+    <button class="arrow-left control flex items-center justify-center" aria-label="previous-image">
+        <img class="transition rotate-180 bg-[--preto-transparente] rounded-full p-1 hover:scale-110" src="images/icons/arrow.svg" alt="">
+    </button>
+    <button class="arrow-right control flex items-center justify-center " aria-label="next-image">
+        <img class="transition bg-[--preto-transparente] rounded-full p-1 hover:scale-110" src="images/icons/arrow.svg" alt="">
+    </button>
     <div class="gallery-wrapper">
         <div class="gallery">
             <img class="gallery-item gallery-current" src="/images/sobrado-1.jpg" alt="">
             <img class="gallery-item " src="/images/sobrado-2.jpg" alt="">
-            <img class="gallery-item " src="/images/sala-1.jpg" alt="">
             <img class="gallery-item " src="/images/sala-2.jpg" alt="">
-            <img class="gallery-item " src="/images/sala-3.jpg" alt="">
             <img class="gallery-item " src="/images/sala-4.jpg" alt="">
-            <img class="gallery-item " src="/images/area-1.jpg" alt="">
             <img class="gallery-item " src="/images/telhado-1.jpg" alt="">
-            <img class="gallery-item " src="/images/telhado-2.jpg" alt="">
-            <img class="gallery-item " src="/images/varanda-1.jpg" alt="">
             <img class="gallery-item " src="/images/varanda-2.jpg" alt="">
             <img class="gallery-item " src="/images/varanda-3.jpg" alt="">
         </div>
@@ -46,14 +45,16 @@
             const current = items[currentItem]
 
             current.scrollIntoView({
-                inline: "center",
-                behavior: "smooth"
+                behavior: 'smooth', 
+                block: 'nearest', 
+                inline: 'start' 
             })
 
             items[currentItem]
                 .classList.add('gallery-current');
 
-            console.log({currentItem})
+            console.log(items[currentItem],{current})
+
         })
     })
 </script>
