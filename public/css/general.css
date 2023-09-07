@@ -12,3 +12,27 @@
     font-family: "bahnschrift";
     src: url("fonts/bahnschrift.ttf") format("ttf");
 }
+
+*{
+    font-family: "bahnschrift";
+}
+h1{
+    font-family: 'lucida demibold', serif;
+}
+
+.sombra-texto {
+    text-shadow: 1px 1px 5px #000306da;
+}
+
+.lucida {
+   font-family: 'lucida regular', serif;
+}
+body {
+    
+}
+
+.logo{
+    background-image: url('/images/logo.jpg.jpg');
+    background-position: center;
+    background-size: 178%;
+}
