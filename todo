@@ -1,0 +1,14 @@
+07-09:
+	- Escutar audios do jefferson e anotar o que ele pediu.
+	- Estruturar componentes	
+	  - banner
+	    - Foto de fundo, ou svg de nuvens. EScolhi as nuvens.
+	  - produtos
+	  	- botei um flex wrap e deixei o fundo branco
+	  - Card chamando para fazer cotação
+	  	- fazer um card igual ao do https://vidracariaversatil.com.br/?gclid=CjwKCAjw6eWnBhAKEiwADpnw9s6bmWprEsApQZMkvZSIbLZfnxGakpjr1DMFW23HMx054RI4dJrfeRoC78AQAvD_BwE, com uma mensagemd e solicite a sua cotacao já
+	  - Sessão com as redes sociais
+	  	- copiar o mesmo site
+	  - footer
+		
+
