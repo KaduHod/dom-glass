@@ -1,0 +1,16 @@
+<div 
+    class="min-h-screen p-10 flex flex-col items-center gap-7 fundo-produtos"
+>
+    <div class="flex flex-col items-center">
+        {{> components/titulo content="Nossos produtos" color="black"}}
+        {{> components/underline cor="[--azul-mais-claro]"}}
+    </div>
+    <div class="flex w-full flex-wrap gap-7 h-fit items-center justify-center">
+        {{> components/nossos-produtos/item imagename="sala-2"}}
+        {{> components/nossos-produtos/item imagename="sala-4"}}
+        {{> components/nossos-produtos/item imagename="sobrado-2"}}
+        {{> components/nossos-produtos/item imagename="telhado-1"}}
+        {{> components/nossos-produtos/item imagename="varanda-2"}}
+    </div>
+    
+</div>
