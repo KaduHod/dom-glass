@@ -36,3 +36,11 @@ body {
     background-position: center;
     background-size: 178%;
 }
+
+.fundo-call-to-action {
+    background-image: url('/images/3d/mao.jpg');
+    background-repeat: no-repeat;
+    background-position-y: 00px;
+    background-size:cover;
+    transform: scaleX(-1);
+}

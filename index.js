@@ -20,7 +20,7 @@ app.get('/', (req, res) => {
     res.render('home');
 })
 
-app.get("compile", (req, res) => {
+app.get("/compile", (req, res) => {
     res.render('home', {}, (err, html) => writeFile("index.html", html, "utf8"));
 })
 
