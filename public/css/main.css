@@ -14,9 +14,11 @@
         --azul-escuro-transparente:#08546e60;
         --azul-mais-claro:#31709C;
         --azul-transparente:#00011fbd;
+        --azul:#00011f;
         --azul-slide: #00001c;
         --preto:#000306;
         --preto-transparente:#000306ec;
+        --transparente:rgba(255, 255, 255, 0);
     }
 }
 

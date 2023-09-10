@@ -38,9 +38,11 @@ body {
 }
 
 .fundo-call-to-action {
-    background-image: url('/images/3d/mao.jpg');
+    background-image: url('/images/3d/mao.png');
+    background-color: var(--azul);
     background-repeat: no-repeat;
-    background-position-y: 00px;
-    background-size:cover;
+    background-position-x: 20px;
+    background-position-y: center;
+    background-size:auto;
     transform: scaleX(-1);
 }

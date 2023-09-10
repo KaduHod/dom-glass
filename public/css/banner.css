@@ -11,7 +11,6 @@
     height: 100%;
     background-position-y: bottom;
     background-repeat: no-repeat;
-    /* background-image: url("/images/backgrounds/nuvens.svg"); */
     background-color: var(--azul-transparente);
 }
 .imagem-fundo-qualidade{
