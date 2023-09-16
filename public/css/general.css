@@ -42,7 +42,7 @@ body {
     background-color: var(--azul);
     background-repeat: no-repeat;
     background-position-x: 20px;
-    background-position-y: center;
-    background-size:auto;
+    background-position-y: 85%;
+    background-size: 50%;
     transform: scaleX(-1);
 }

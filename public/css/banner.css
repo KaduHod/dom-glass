@@ -4,7 +4,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: -200px;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
 }
 .banner-gradient{
     width: 100%;
