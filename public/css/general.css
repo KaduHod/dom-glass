@@ -46,3 +46,10 @@ body {
     background-size: 50%;
     transform: scaleX(-1);
 }
+
+@media (min-width: 600px) {
+    .fundo-call-to-action {
+        background-size: auto; /* Mantém o tamanho original do background */
+        background-position: 30% 50%;
+    }
+}

@@ -1,4 +1,4 @@
-<div class="h-fit p-10 flex flex-col gap-4">
+<div class="h-fit p-10 sm:px-20 md:px-30 lg:px-40 xl:px-50 flex flex-col gap-4">
     {{> components/social/social-item 
         icon="instagram" 
         textContent="@domGlass" 
@@ -7,11 +7,11 @@
     {{> components/social/social-item 
         icon="facebook" 
         textContent="Acesse nossa página oficial" 
-        link="https://www.facebook.com/domGlass" }}
+        link="https://www.facebook.com/domglasscoberturas" }}
 
     {{> components/social/social-item 
         icon="gmail" 
-        textContent="domglass@gmail.com" 
+        textContent="domglasscoberturas@gmail.com" 
         link="@domGlass" }}
 
     {{> components/social/social-item 
@@ -22,7 +22,8 @@
 
 <script>
 
-Array.from(document.querySelectorAll(".social-network"))
+Array
+    .from(document.querySelectorAll(".social-network"))
     .forEach(i => {
         const [tagA] = i.getElementsByTagName('a');
         i.onclick = () => tagA.click();

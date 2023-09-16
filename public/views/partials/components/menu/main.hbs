@@ -1,14 +1,17 @@
 <div id="menu" class="fixed close-menu text-white bg-black w-full h-screen z-10">
-    <div id="close-menu" class="w-10 h-10 bg-white flex items-center justify-center">
-        close
+    <div id="close-menu" class="w-full h-24 items-center flex justify-center">
+        <div class="w-10 flex items-center justify-center h-fit">
+            <svg xmlns="http://www.w3.org/2000/svg" height="48" viewBox="0 -960 960 960" width="48"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" fill="white"/></svg>
+        </div>
     </div>
-    <ul class="flex w-full flex-col p-5">
-        <li>item</li>
-        <li>item</li>
-        <li>item</li>
-        <li>item</li>
-        <li>item</li>
-        <li>item</li>
-        <li>item</li>
+    <ul class="flex w-full flex-col items-start gap-3 p-10">
+        {{> components/menu/item content="item"}}
+        {{> components/menu/item content="item"}}
+        {{> components/menu/item content="item"}}
+        {{> components/menu/item content="item"}}
+        {{> components/menu/item content="item"}}
+        {{> components/menu/item content="item"}}
+        {{> components/menu/item content="item"}}
+        {{> components/menu/item content="item"}}
     </ul>
 </div>
