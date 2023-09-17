@@ -42,7 +42,7 @@ body {
     background-color: var(--azul);
     background-repeat: no-repeat;
     background-position-x: 20px;
-    background-position-y: 85%;
+    background-position-y: 70%;
     background-size: 50%;
     transform: scaleX(-1);
 }
@@ -50,6 +50,6 @@ body {
 @media (min-width: 600px) {
     .fundo-call-to-action {
         background-size: auto; /* Mantém o tamanho original do background */
-        background-position: 30% 50%;
+        background-position: 20% 50%;
     }
 }
