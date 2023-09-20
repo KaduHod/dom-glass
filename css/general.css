@@ -32,13 +32,13 @@ body {
 }
 
 .logo{
-    background-image: url('/images/logo.jpg.jpg');
+    background-image: url('images/logo.jpg.jpg');
     background-position: center;
     background-size: 178%;
 }
 
 .fundo-call-to-action {
-    background-image: url('/images/3d/mao.png');
+    background-image: url('images/3d/mao.png');
     background-color: var(--azul);
     background-repeat: no-repeat;
     background-position-x: 20px;
