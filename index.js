@@ -20,6 +20,10 @@ app.get('/', (req, res) => {
     res.render('home');
 })
 
+app.get('/index', (req, res) => {
+    res.sendFile('/app/index.html')
+})
+
 app.get("/compile", (req, res) => {
     res.render('home', {}, (err, html) => writeFile("index.html", html, "utf8"));
 })
