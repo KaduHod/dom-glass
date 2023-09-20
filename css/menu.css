@@ -1,0 +1,10 @@
+#menu{
+    transition: 200ms;
+}
+
+.close-menu{
+    right:-100%;
+}
+.show-menu{
+    right:0px
+}

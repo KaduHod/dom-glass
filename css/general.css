@@ -1,0 +1,55 @@
+@font-face {
+    font-family: "lucida regular";
+    src: url("fonts/lucida-fax-regular.ttf") format("ttf");
+}
+
+@font-face {
+    font-family: "lucida demibold";
+    src: url("fonts/lucida-fax-demibold.ttf") format("ttf");
+}
+
+@font-face {
+    font-family: "bahnschrift";
+    src: url("fonts/bahnschrift.ttf") format("ttf");
+}
+
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+h1{
+    font-family: 'lucida demibold', serif;
+}
+
+.sombra-texto {
+    text-shadow: 1px 1px 5px #000306da;
+}
+
+.lucida {
+   font-family: 'lucida regular', serif;
+}
+body {
+    
+}
+
+.logo{
+    background-image: url('/images/logo.jpg.jpg');
+    background-position: center;
+    background-size: 178%;
+}
+
+.fundo-call-to-action {
+    background-image: url('/images/3d/mao.png');
+    background-color: var(--azul);
+    background-repeat: no-repeat;
+    background-position-x: 20px;
+    background-position-y: 70%;
+    background-size: 50%;
+    transform: scaleX(-1);
+}
+
+@media (min-width: 600px) {
+    .fundo-call-to-action {
+        background-size: auto; /* Mantém o tamanho original do background */
+        background-position: 20% 50%;
+    }
+}
